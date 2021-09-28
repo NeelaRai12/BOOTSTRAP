@@ -1,0 +1,9 @@
+.custom-header{
+    background-color: black;
+}
+.navbar{
+    background-color: black !important;
+}
+.navbar a{
+    color: #ffff !important;
+}
