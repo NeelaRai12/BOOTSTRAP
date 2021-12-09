@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="https://ncube-digest.com/wp-content/uploads/2020/06/types-of-ecommerce.jpg"
+        type="image/x-icon">
+
+    <!-- external custom css style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Cart</title>
+</head>
+
+<body>
+
+    <!-- start of navbar layout -->
+    <div class="container-fluid">
+        <div class="row custom-header align-items-center">
+            <div class="col-lg-2">
+                <a class="navbar-brand text-white" href="index.html">Amazon</a>
+            </div>
+            <div class="col-lg-7">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-warning" type="submit">Search</button>
+                </form>
+            </div>
+            <div class="col-lg-3">
+                <ul class="d-flex justify-content-evenly">
+                    <li class="list-unstyled"><a href="signin.html" class="text-white text-decoration-none">signin</a>
+                    </li>
+                    <li class="list-unstyled"><a href="signup.html" class="text-white text-decoration-none">signup</a>
+                    </li>
+                    <li class="list-unstyled mt-2"><a href="cart.html" class="text-white text-decoration-none">
+                            <i class='bx bxs-cart-download fs-2  position-relative'>
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning"
+                                    style="font-size: 12px;">
+                                    <span class="text-dark">5</span>
+                                </span>
+                            </i>
+
+                        </a></li>
+
+                </ul>
+            </div>
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="deals.html">Deals</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Customer Service</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </div>
+    <!-- end of navbar layout -->
+
+    <!-- start of deals content layout -->
+    <div class="container-fluid">
+        <h2>Today's Deals</h2>
+        <div class="row mt-3">
+            <div class="col-md-3">
+                <form>
+                    <label for="subject"><b>Departments</b></label><br>
+                    <input type="checkbox" name="subject" value="html">Amazon Devices<br>
+                    <input type="checkbox" name="subject" value="css">Art, Craft & Sewing<br>
+                    <input type="checkbox" name="subject" value="node">Automotive & Motorcycle<br>
+                    <input type="checkbox" name="subject" value="JAVA">Baby Clothing & Accessories<br><br><br>
+                </form>
+                    <b>Price</b><br>
+                    <p>Under $25</p>
+                    <p>$25 to $50</p>
+                    <p>$50 to $100</p>
+                    <p>$100 & above</p>
+
+                    <b>Discounts</b>
+                    <p>All Deals</p>
+                    <p>10% off or more</p>
+                    <p>25% off or more</p>
+                    <p>50% off or more</p>
+
+            </div>
+            <div class="col-md-9">
+                <div class="container-fluid mt-3">
+                    <div class="row row-cols-1 row-cols-md-4 g-4">
+                        <div class="col">
+                            <div class="card shadow-lg">
+                                <img src="images/picture-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Card title</h5>
+                                    <center><button class="btn btn-success">View Details</button></center>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-lg">
+                                <img src="images/picture-2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Card title</h5>
+                                    <center><button class="btn btn-success">View Details</button></center>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-lg">
+                                <img src="images/picture-3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Card title</h5>
+                                    <center><button class="btn btn-success">View Details</button></center>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-lg">
+                                <img src="images/img-2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Card title</h5>
+                                    <center><button class="btn btn-success">View Details</button></center>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-lg">
+                                <img src="images/picture-2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Card title</h5>
+                                    <center><button class="btn btn-success">View Details</button></center>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-lg">
+                                <img src="images/picture-2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Card title</h5>
+                                    <center><button class="btn btn-success">View Details</button></center>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-lg">
+                                <img src="images/picture-2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Card title</h5>
+                                    <center><button class="btn btn-success">View Details</button></center>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-lg">
+                                <img src="images/picture-2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Card title</h5>
+                                    <center><button class="btn btn-success">View Details</button></center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of deals content layout -->
+
+
+    <!-- satrt of footer layout -->
+    <div class="container-fliud">
+        <footer class="row row-cols-7 py-7 mt-7 border-top">
+            <div class="col">
+                <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <p class="text-white">&copy; 2021</p>
+            </div>
+
+            <div class="col">
+
+            </div>
+
+            <div class="col">
+                <h5>Get to Know Us</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About Us</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Careers</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Press Releases</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Amazon Cares</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Gift a Smile</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h5>Connect with Us</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Facebook</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Twitter</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Instagram</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h5>MAke Money With Us</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Sell on Amazon</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Sell Under Amazon
+                            Accelerator</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Amazon Global Selling</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Become an Affiliate</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Fulfillment by Amazon</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h5>Let Us Help You</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Covid-19 and Amazon</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Your Account</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Return Centers</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">100% Purchase Protection</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Amazon App Download</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <!-- end of footer layout -->
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
